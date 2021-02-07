@@ -440,7 +440,7 @@ body {
   text-align: center;
   color: #4b4e53;
   font-size: 60px;
-  padding-top: 50px;
+  padding-top: 100px;
   margin-bottom: 60px;
   font-style: italic;
 }
@@ -798,7 +798,7 @@ footer .linknav .social img {
   }
 
   .contact-me {
-    height: 120vh;
+    height: 140vh;
   }
 
   footer {
