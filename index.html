@@ -26,16 +26,11 @@
       crossorigin="anonymous"
     ></script>
     <script type="text/javascript" src="js/lightslider.js"></script>
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/simplebar@latest/dist/simplebar.css"
     />
     <script
       src="https://kit.fontawesome.com/8dd9d21097.js"
@@ -46,39 +41,36 @@
   <body>
     <div class="hero" id="home">
       <nav>
-        <div class="nav-bar" data-aos="zoom-in">
+        <div class="nav-bar">
           <img src="./img/logo1.png" alt="" height="70px" width="70px" />
-          <ul>
-            <a href="#home">
-              <li>Home</li>
-            </a>
-            <a href="#about">
+          <ul class="nav-links">
+            <a href="#about" class="nav__link">
               <li>About Me</li>
             </a>
-            <a href="#services">
+            <a href="#services" class="nav__link">
               <li>Services</li>
             </a>
-            <a href="#projects">
+            <a href="#projects" class="nav__link">
               <li>Projects</li>
             </a>
-            <a href="#contact">
+            <a href="#contact" class="nav__link">
               <li>Contact</li>
             </a>
           </ul>
         </div>
-        <div class="hire" data-aos="zoom-in">
+        <div class="hire">
           <a href="#contact">Hire me</a>
         </div>
       </nav>
-      <div class="circle" data-aos="zoom-in">
+      <div class="circle">
         <img src="./img/portrait.png" alt="" />
       </div>
-      <div class="bottom" data-aos="zoom-in">
+      <div class="bottom">
         <div class="title">
-          <h1 data-aos="zoom-out">SAVO <span>DEV</span></h1>
+          <h1>SAVO <span>DEV</span></h1>
           <h5>Think more, design less</h5>
         </div>
-        <div class="view" data-aos="zoom-in">
+        <div class="view">
           <a href="#projects">
             <h3>VIEW PROJECTS</h3>
             <i class="fas fa-chevron-circle-right fa-2x"></i>
@@ -87,12 +79,12 @@
       </div>
     </div>
 
-    <section class="about-me" id="about">
-      <h4 data-aos="zoom-in">About <span>me</span></h4>
+    <section class="about-me section" id="about">
+      <h4>About <span>me</span></h4>
 
-      <div class="container padd">
+      <div class="container">
         <div class="row flex">
-          <div class="col-md-6 left-side" data-aos="zoom-in">
+          <div class="col-md-6 left-side">
             <h5>This is how everything began...</h5>
             <p>
               It all started in high school. The first time I came across HTML
@@ -105,7 +97,7 @@
               social networks.
             </p>
           </div>
-          <div class="col-md-6 right-side" data-aos="zoom-in">
+          <div class="col-md-6 right-side">
             <div class="progressholder">
               <h5 class="lefth5">HTML</h5>
               <h5 class="righth5">100%</h5>
@@ -142,9 +134,9 @@
       </div>
     </section>
 
-    <section class="services" id="services">
-      <h4 data-aos="zoom-in"><span>My</span> Services</h4>
-      <div class="container padd" data-aos="zoom-in">
+    <section class="services section" id="services">
+      <h4><span>My</span> Services</h4>
+      <div class="container blur">
         <div class="row">
           <div class="col-md-4">
             <div class="service-card">
@@ -217,13 +209,13 @@
       </div>
     </section>
 
-    <section class="my-projects" id="projects">
-      <h1 data-aos="zoom-in">MY &nbsp;<span>PROJECTS</span></h1>
+    <section class="my-projects section" id="projects">
+      <h1>MY &nbsp;<span>PROJECTS</span></h1>
       <div class="containerr">
         <ul id="autoWidth" class="cs-hidden">
           <li class="item-a">
             <a href="http://tastyrestaurant.savodev.ga">
-              <div class="box" data-aos="zoom-in">
+              <div class="box">
                 <div class="project-pic">
                   <img src="./img/project2.png" alt="" />
                 </div>
@@ -239,7 +231,7 @@
           </li>
           <li class="item-a">
             <a href="http://showoff.savodev.ga">
-              <div class="box" data-aos="zoom-in">
+              <div class="box">
                 <div class="project-pic">
                   <img src="./img/project1.png" alt="" />
                 </div>
@@ -256,7 +248,7 @@
           </li>
           <li class="item-a">
             <a href="http://webly.savodev.ga">
-              <div class="box" data-aos="zoom-in">
+              <div class="box">
                 <div class="project-pic">
                   <img src="./img/project4.png" alt="" />
                 </div>
@@ -271,7 +263,7 @@
           </li>
           <li class="item-a">
             <a href="#">
-              <div class="box" data-aos="zoom-in">
+              <div class="box">
                 <div class="project-pic">
                   <img src="./img/project6.jpg" alt="" />
                 </div>
@@ -288,7 +280,7 @@
             </a>
           </li>
           <li class="item-a">
-            <div class="box" data-aos="zoom-in">
+            <div class="box">
               <div class="project-pic">
                 <img src="./img/project6.jpg" alt="" />
               </div>
@@ -304,7 +296,7 @@
             </div>
           </li>
           <li class="item-a">
-            <div class="box" data-aos="zoom-in">
+            <div class="box">
               <div class="project-pic">
                 <img src="./img/project7.jpg" alt="" />
               </div>
@@ -323,11 +315,11 @@
       </div>
     </section>
 
-    <section class="contact-me" id="contact">
-      <h4 data-aos="zoom-in"><span>Contact </span>Me</h4>
+    <section class="contact-me section" id="contact">
+      <h4><span>Contact </span>Me</h4>
       <div class="container">
         <div class="row both">
-          <div class="col-md-4 left-side" data-aos="zoom-in">
+          <div class="col-md-4 left-side">
             <h2>Get in touch</h2>
             <p>
               Feel free to get in touch with me. I am always open to discussing
@@ -353,16 +345,18 @@
             <div class="social">
               <a href="#"><i class="fab fa-facebook-f fa-2x icon"></i></a>
               <a href="#"><i class="fab fa-instagram fa-2x icon"></i></a>
-              <a href="https://www.upwork.com/freelancers/~012978ecc0fca95fd8"
+              <a
+                href="https://www.upwork.com/freelancers/~012978ecc0fca95fd8"
+                target="_blank"
                 ><img src="img/icons8-upworks.svg" alt="" class="icon"
               /></a>
-              <a href="https://github.com/savoDev"
+              <a href="https://github.com/SavoKos" target="_blank"
                 ><i class="fab fa-github fa-2x icon"></i
               ></a>
             </div>
           </div>
 
-          <div class="col-md-8 right-side" data-aos="zoom-in">
+          <div class="col-md-8 right-side">
             <form action="https://formspree.io/f/mrgodyqv" method="POST">
               <label for="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -380,7 +374,7 @@
     </section>
 
     <footer>
-      <div class="container" data-aos="zoom-in">
+      <div class="container">
         <div class="row">
           <div class="col-md-12 linknav">
             <img
@@ -390,17 +384,19 @@
               width="100px"
               class="footer-logo"
             />
-            <a href="#home">Home</a>
+            <a href="#home" class="home">Home</a>
             <a href="#about">About me</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
             <div class="social">
               <a href="#"><i class="fab fa-facebook-f fa-lg icon"></i></a>
               <a href="#"><i class="fab fa-instagram fa-lg icon"></i></a>
-              <a href="https://www.upwork.com/freelancers/~012978ecc0fca95fd8"
+              <a
+                href="https://www.upwork.com/freelancers/~012978ecc0fca95fd8"
+                target="_blank"
                 ><img src="img/icons8-upwork.svg" alt="" class="icon"
               /></a>
-              <a href="https://github.com/savoDev"
+              <a href="https://github.com/SavoKos" target="_blank"
                 ><i class="fab fa-github fa-lg icon"></i
               ></a>
             </div>
@@ -411,14 +407,7 @@
         </div>
       </div>
     </footer>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
-    <script>
-      AOS.init({
-        duration: 1000,
-      });
-    </script>
     <script src="js/script.js"></script>
+    <script src="js/custom.js"></script>
   </body>
 </html>

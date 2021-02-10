@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-html {
-  scroll-behavior: smooth;
-}
 
 * {
   margin: 0;
@@ -14,6 +11,17 @@ html {
   scroll-behavior: smooth;
 }
 
+:target:before {
+  content: '';
+  display: block;
+  height: 150px; /* fixed header height*/
+  margin: 150px 0 0; /* negative fixed header height */
+}
+
+.contact-me:before {
+  height: 0;
+}
+
 a:hover {
   text-decoration: none !important;
 }
@@ -22,11 +30,40 @@ body {
   background: rgb(255, 255, 255);
   background: radial-gradient(circle, #ffffff 0%, #d0d0d0 100%);
   overflow: overlay;
+  overflow-x: hidden;
+}
+
+.section {
+  transition: all ease 2s;
+  animation-name: reveal;
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.section:not(.contact-me) {
+  margin: 200px 0;
+}
+
+.reveal {
+  opacity: 0;
+  transition: all ease 2s;
+  transform: translateY(150px);
 }
 
 .hero {
   height: 100vh;
   font-family: 'Bebas neue', cursive;
+  animation-name: reveal;
+  animation-duration: 2s;
+}
+
+@keyframes reveal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .hero .circle img {
@@ -181,16 +218,11 @@ body {
   text-align: center;
   color: #8dbbc5;
   font-size: 60px;
-  padding-top: 50px;
   font-style: italic;
 }
 
 .about-me span {
   color: #4b4e53;
-}
-
-.padd {
-  padding-top: 40px;
 }
 
 .about-me .left-side {
@@ -278,7 +310,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-.about-me .padd .flex {
+.about-me .flex {
   align-items: center;
 }
 
@@ -301,6 +333,7 @@ body {
   color: #8dbbc5;
   font-size: 60px;
   font-style: italic;
+  margin-bottom: 40px;
 }
 
 .padd {
@@ -316,6 +349,7 @@ body {
   transition: all 0.3s ease;
   border-radius: 20px;
   box-shadow: 20px 20px 60px #ececec, -20px -20px 60px #f4f4f4;
+  cursor: default;
 }
 
 .services .service-card h5 {
@@ -340,7 +374,7 @@ body {
   margin-bottom: 100px;
 }
 
-.my-projects ul {
+projects ul {
   list-style: none;
 }
 
@@ -440,7 +474,7 @@ body {
   text-align: center;
   color: #4b4e53;
   font-size: 60px;
-  margin-top: 200px;
+  margin-top: 100px;
   margin-bottom: 60px;
   font-style: italic;
 }
@@ -1110,25 +1144,5 @@ footer .linknav .social img {
 }
 
 @media only screen and (min-width: 1200px) {
-  .services .container:hover .service-card {
-    filter: blur(3px);
-    opacity: 0.5;
-    transform: scale(0.98);
-    box-shadow: none;
-    cursor: default;
-  }
-  .services .container:hover .service-card:hover {
-    transform: scale(1);
-    filter: blur(0px);
-    opacity: 1;
-    box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
-  }
-
-  .item-a {
-    transition: 0.3s;
-  }
-
-  .item-a:hover {
-    transform: scale(1.1);
-  }
+  /* TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:BLUR NA USLUGAMATODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO: */
 }

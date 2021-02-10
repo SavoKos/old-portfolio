@@ -75,6 +75,14 @@
   opacity: 1;
 }
 /** /!!! End of core css Should not edit !!!/**/
+.item-a:hover {
+  transform: scale(1.1);
+  transition: all ease 0.3s;
+}
+
+.item-a {
+  transition: all ease 0.3s;
+}
 
 /* Pager */
 .lSSlideOuter .lSPager.lSpg {
