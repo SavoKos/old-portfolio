@@ -7,7 +7,7 @@ const reveal = function (entries) {
 };
 const revealObserver = new IntersectionObserver(reveal, {
   root: null,
-  threshold: 0.4,
+  threshold: 0,
 });
 
 sections.forEach(s => {
