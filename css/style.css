@@ -866,8 +866,7 @@ footer .linknav .social img {
   }
 
   .contact-me .left-side .social {
-    margin-top: 0;
-    margin-bottom: 50px;
+    margin: 1rem 0;
   }
 
   .contact-me .left-side {
@@ -880,6 +879,10 @@ footer .linknav .social img {
   .contact-me .left-side .info,
   .contact-me .left-side .social {
     margin-right: 2rem;
+  }
+
+  .contact-me .left-side {
+    padding: 20px;
   }
 
   .hero .circle img {
@@ -1009,8 +1012,8 @@ footer .linknav .social img {
     font-size: 50px;
   }
 
-  .contact-me .left-side {
-    padding: 20px;
+  .contact-me .left-side p {
+    text-align: justify;
   }
 
   footer {
