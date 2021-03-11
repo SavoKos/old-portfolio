@@ -225,20 +225,25 @@ body {
   color: #4b4e53;
 }
 
-.about-me .left-side {
+.about-me .right-side {
   display: inline;
   width: 100%;
   padding: 60px;
 }
 
-.about-me .left-side h5 {
+.about-me .right-side h5 {
   font-family: 'Poppins', sans-serif;
-  font-size: 29px;
+  font-size: 2.5rem;
   color: #232322;
   font-weight: bold;
 }
 
-.about-me .left-side p {
+.about-me .right-side h5 span {
+  color: #8dbbc5;
+  font-size: 1.8rem;
+}
+
+.about-me .right-side p {
   font-family: 'Poppins', sans-serif;
   font-weight: 100;
   font-size: 22px;
@@ -246,68 +251,53 @@ body {
   font-weight: 300;
 }
 
-.about-me .right-side {
-  display: inline;
-  width: 100%;
-  padding-bottom: 90px;
+.about-me .right-side p span {
+  font-weight: 500;
 }
 
-#progressbar {
-  background-color: #4b4e53;
-  border-radius: 10px;
-  /* (height of inner div) / 2 + padding */
-  width: auto;
-  margin-right: 50px;
-  margin-left: 70px;
-  display: block;
-  margin-bottom: 20px;
+.about-me .right-side a {
+  color: #232322;
+  font-weight: 600;
 }
 
-#progressbar > div {
-  background-color: #8dbbc5;
-  height: 22px;
-  border-radius: 8px;
+.about-me .right-side i {
+  font-size: 2.5rem;
+  padding: 0 0.3rem;
+  margin-top: 1.5rem;
 }
 
-.pbr1 > div {
-  width: 100%;
+.html {
+  color: #f1652a;
 }
 
-.pbr2 > div {
-  width: 90%;
+.css {
+  color: #008fd5;
 }
 
-.pbr3 > div {
-  width: 80%;
+.sass {
+  color: #ce679a;
 }
 
-.pbr4 > div {
-  width: 95%;
+.js {
+  color: #e2cf50;
 }
 
-.pbr5 > div {
-  width: 30%;
+.bootstrap {
+  color: #634091;
 }
 
-.progressholder {
-  margin-top: 100px;
+.react {
+  color: #61dbfb;
 }
 
-.about-me .right-side .lefth5 {
-  display: inline;
-  margin-left: 89px;
-  color: #4b4e53;
-  font-weight: 400;
-  font-family: 'Poppins', sans-serif;
+.wordpress {
+  color: #21759b;
 }
 
-.about-me .right-side .righth5 {
-  float: right;
-  margin-right: 70px;
-  color: #4b4e53;
-  font-size: 22px;
-  font-weight: 400;
-  font-family: 'Poppins', sans-serif;
+.about-me .left-side img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
 }
 
 .about-me .flex {
@@ -766,25 +756,8 @@ footer .linknav .social img {
     height: 100%;
   }
 
-  .about-me .left-side {
+  .about-me .right-side {
     padding: 30px;
-  }
-
-  .progressholder {
-    margin-top: 150px;
-  }
-
-  #progressbar {
-    margin-right: 0px;
-    margin-left: 35px;
-  }
-
-  .about-me .right-side .lefth5 {
-    margin-left: 55px;
-  }
-
-  .about-me .right-side .righth5 {
-    margin-right: 20px;
   }
 
   .services {
@@ -797,9 +770,25 @@ footer .linknav .social img {
   }
 }
 
+@media only screen and (max-width: 991px) {
+  .about-me .left-side {
+    display: none;
+  }
+
+  .about-me .right-side,
+  .services .col-md-4 {
+    max-width: 100%;
+    flex: 1;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   body {
     overflow-x: hidden !important;
+  }
+
+  .services .col-md-4 {
+    flex: unset;
   }
 
   .portrait {
@@ -818,13 +807,8 @@ footer .linknav .social img {
     height: 1250px;
   }
 
-  .about-me .right-side {
-    height: 449px;
-  }
-
-  .about-me .left-side h5,
-  .about-me .left-side p {
-    text-align: center;
+  .about-me .right-side p {
+    text-align: justify;
   }
   .progressholder {
     margin-bottom: 67px;
@@ -927,6 +911,10 @@ footer .linknav .social img {
     padding-bottom: 0;
   }
 
+  .about-me .right-side i {
+    font-size: 2rem;
+  }
+
   .hero .circle img {
     width: inherit;
     padding-top: 3vh;
@@ -982,29 +970,21 @@ footer .linknav .social img {
     padding: 0;
   }
 
-  .about-me .left-side h5 {
-    font-size: 22px;
+  .about-me .right-side h5 {
+    font-size: 1.8rem;
   }
 
-  .about-me .left-side p {
+  .about-me .right-side h5 span {
+    font-size: 1.3rem;
+  }
+
+  .about-me .right-side p {
     font-size: 18px;
     text-align: justify;
   }
 
-  .about-me .left-side {
-    padding: 0 20px;
-  }
-
-  .about-me .right-side h5 {
-    font-size: 15px;
-  }
-
-  .about-me .right-side .lefth5 {
-    margin-left: 45px;
-  }
-
-  .about-me .right-side .righth5 {
-    margin-right: 45px;
+  .about-me .right-side {
+    padding: 0 2rem;
   }
 
   .my-projects {
@@ -1020,11 +1000,6 @@ footer .linknav .social img {
     margin-top: 220px;
   }
 
-  #progressbar {
-    margin-right: 30px;
-    margin-left: 30px;
-  }
-
   .contact-me h4 {
     font-size: 50px;
   }
@@ -1038,10 +1013,28 @@ footer .linknav .social img {
   }
 }
 
+@media only screen and (max-width: 440px) {
+  .about-me .right-side i {
+    font-size: 1.8rem;
+  }
+}
+
 @media only screen and (max-width: 350px) {
   .hero {
     padding-bottom: 0;
     height: 110vh;
+  }
+
+  .about-me .right-side i {
+    font-size: 1.5rem;
+  }
+
+  .about-me .right-side {
+    padding: 0 3rem;
+  }
+
+  .about-me .right-side h5 span {
+    font-size: 1rem;
   }
 
   .hero .circle img {
@@ -1099,29 +1092,17 @@ footer .linknav .social img {
     padding: 0;
   }
 
-  .about-me .left-side h5 {
+  .about-me .right-side h5 {
     font-size: 22px;
   }
 
-  .about-me .left-side p {
+  .about-me .right-side p {
     font-size: 18px;
     text-align: justify;
   }
 
-  .about-me .left-side {
+  .about-me .right-side {
     padding: 0 20px;
-  }
-
-  .about-me .right-side h5 {
-    font-size: 15px;
-  }
-
-  .about-me .right-side .lefth5 {
-    margin-left: 45px;
-  }
-
-  .about-me .right-side .righth5 {
-    margin-right: 45px;
   }
 
   .my-projects {
