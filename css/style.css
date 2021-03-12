@@ -419,6 +419,11 @@ projects ul {
   font-weight: 300;
 }
 
+.my-projects .details .credits {
+  font-weight: normal;
+  color: #8dbbc5;
+}
+
 .my-projects p span {
   font-weight: bold;
 }
