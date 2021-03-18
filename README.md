@@ -1,4 +1,4 @@
-# Welcome to my personal portfolio!<br>
+# Hello friend. Welcome to my portfolio !<br>
 I am Savo Kos, Frond-End Developer based in Bosnia. <br /><br />
               My story as a Frond-End Developer started 4 years ago in high
               school. The first time I came across HTML and CSS, I fell in love.
