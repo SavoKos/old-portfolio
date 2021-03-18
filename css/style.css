@@ -505,9 +505,10 @@ projects ul {
   margin-left: 20px;
 }
 
-.contact-me .left-side .info p {
-  font-size: 16px;
+.contact-me .left-side .info a {
+  font-size: 18px;
   font-weight: bold;
+  color: #232322;
 }
 
 .location p,
