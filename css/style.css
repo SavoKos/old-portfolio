@@ -252,11 +252,10 @@ body {
 }
 
 .about-me .right-side p span {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .about-me .right-side a {
-  color: #232322;
   font-weight: 600;
 }
 
@@ -532,7 +531,7 @@ projects ul {
   margin-left: 20px;
 }
 
-.icon {
+.icon:not(.fa-envelope, .fa-map-marker-alt) {
   -webkit-transition-duration: 1s;
   transition-duration: 0.7s;
   -webkit-transition-property: transform;
@@ -713,6 +712,11 @@ footer .linknav .social a {
 footer .linknav .social img {
   padding: 10px;
   margin-bottom: 5px;
+}
+
+footer .fa-github.icon {
+  color: #717171;
+  font-size: 26px;
 }
 
 ::-webkit-scrollbar {
@@ -1135,8 +1139,4 @@ footer .linknav .social img {
   .services {
     height: 300vh;
   }
-}
-
-@media only screen and (min-width: 1200px) {
-  /* TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:BLUR NA USLUGAMATODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO:TODO: */
 }
