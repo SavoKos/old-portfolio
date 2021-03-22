@@ -2,62 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://savodev.ml/</loc>
-    <lastmod>2021-03-07</lastmod>
-    <priority>1.0</priority>
+    <lastmod>2021-03-22</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://spinasse.savodev.ml/</loc>
+    <lastmod>2021-03-22</lastmod>
+    <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://tastyrestaurant.savodev.ml/</loc>
-    <lastmod>2021-03-07</lastmod>
-    <priority>0.9</priority>
+    <lastmod>2021-03-22</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://clipboard.savodev.ml/</loc>
+    <lastmod>2021-03-22</lastmod>
+    <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://moviegeek.savodev.ml/</loc>
-    <lastmod>2021-03-07</lastmod>
-    <priority>0.9</priority>
+    <lastmod>2021-03-22</lastmod>
+    <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://webly.savodev.ml/</loc>
-    <lastmod>2021-03-07</lastmod>
-    <priority>0.9</priority>
+    <lastmod>2021-03-22</lastmod>
+    <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://showoff.savodev.ml/</loc>
-    <lastmod>2021-03-07</lastmod>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://showoff.savodev.ml/contact.html</loc>
-    <lastmod>2021-03-07</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://showoff.savodev.ml/index.html</loc>
-    <lastmod>2021-03-07</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2021-03-22</lastmod>
+    <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://showoff.savodev.ml/about.html</loc>
-    <lastmod>2021-03-07</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2021-03-22</lastmod>
+    <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://webly.savodev.ml/index.html</loc>
-    <lastmod>2021-03-07</lastmod>
-    <priority>0.8</priority>
+    <loc>https://spinasse.savodev.ml/food.html</loc>
+    <lastmod>2021-03-22</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://showoff.savodev.ml/index.html</loc>
+    <lastmod>2021-03-22</lastmod>
+    <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://showoff.savodev.ml/work.html</loc>
-    <lastmod>2021-03-07</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2021-03-22</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://webly.savodev.ml/index.html</loc>
+    <lastmod>2021-03-22</lastmod>
+    <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://webly.savodev.ml/project.html</loc>
-    <lastmod>2021-03-07</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2021-03-22</lastmod>
+    <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://showoff.savodev.ml/single.html</loc>
-    <lastmod>2021-03-07</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2021-03-22</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://spinasse.savodev.ml/gallery.html</loc>
+    <lastmod>2021-03-22</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://spinasse.savodev.ml/index.html</loc>
+    <lastmod>2021-03-22</lastmod>
+    <changefreq>daily</changefreq>
   </url>
 </urlset>
