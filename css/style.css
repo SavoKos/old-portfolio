@@ -414,7 +414,6 @@ projects ul {
 .my-projects .details p {
   color: #cfdbd5;
   padding: 15px 5px 10px 5px;
-  text-align: justify;
   font-weight: 300;
 }
 
@@ -502,7 +501,6 @@ projects ul {
 .contact-me .left-side .info .icon {
   height: 23px;
   width: 23px;
-  margin-left: 20px;
 }
 
 .contact-me .left-side .info a {
@@ -822,9 +820,6 @@ footer .fa-github.icon {
     height: 1250px;
   }
 
-  .about-me .right-side p {
-    text-align: justify;
-  }
   .progressholder {
     margin-bottom: 67px;
     margin-top: 63px;
@@ -882,7 +877,6 @@ footer .fa-github.icon {
   .contact-me .left-side {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
   }
 
@@ -891,8 +885,12 @@ footer .fa-github.icon {
     margin-right: 2rem;
   }
 
+  .contact-me .left-side .social .icon.upwork {
+    margin-left: 0;
+  }
+
   .contact-me .left-side {
-    padding: 20px;
+    padding: 40px;
   }
 
   .hero .circle img {
@@ -921,6 +919,10 @@ footer .fa-github.icon {
 
   .bottom h5 {
     font-size: 15px;
+  }
+
+  .contact-me .left-side h2 {
+    text-align: left;
   }
 }
 
@@ -998,11 +1000,10 @@ footer .fa-github.icon {
 
   .about-me .right-side p {
     font-size: 18px;
-    text-align: justify;
   }
 
   .about-me .right-side {
-    padding: 0 2rem;
+    padding: 0 40px;
   }
 
   .my-projects {
@@ -1022,12 +1023,16 @@ footer .fa-github.icon {
     font-size: 50px;
   }
 
-  .contact-me .left-side p {
-    text-align: justify;
-  }
-
   footer {
     margin-top: 500px;
+  }
+
+  .contact-me .left-side p {
+    font-size: 18px;
+  }
+
+  .contact-me .left-side .info a {
+    font-size: 14px;
   }
 }
 
