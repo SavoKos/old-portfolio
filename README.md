@@ -20,7 +20,7 @@ If you have a business proposal, question, or offer, you can
 contact me by e-mail or using the contact form at the end of the
 page. If you need a website, you can visit my
 <a
-                href="https://www.upwork.com/freelancers/~012978ecc0fca95fd8"
+                href="links.savokos.com/upwork"
                 target="_blank"
                 >Upwork</a
               >

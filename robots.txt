@@ -2,4 +2,4 @@ User-agent: *
 
 Disallow: 
 
-Sitemap: https://savodev.ml/sitemap.xml
+Sitemap: https://savokos.com/sitemap.xml
