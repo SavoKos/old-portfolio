@@ -398,8 +398,8 @@ projects ul {
 }
 
 .my-projects .box {
-  width: 333px;
-  height: 610px;
+  width: 500px;
+  height: 400px;
   background-color: #232323;
   border-radius: 20px;
   display: flex;
