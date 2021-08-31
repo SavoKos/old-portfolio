@@ -1,10 +1,12 @@
 <p align="center"><a href="https://savokos.com" target="_blank" rel="noopener noreferrer"><img src="https://res.cloudinary.com/dicynt7ms/image/upload/v1630438156/important/logo_zeftan.png"></a></p>
-<h1 align="center">Savo Kos</h1>
+<h1 align="center"><a href="https://savokos.com" target="_blank" rel="noopener noreferrer">Savo Kos</a></h1>
 
 <br>
 
 ![Project Image](https://res.cloudinary.com/dicynt7ms/image/upload/v1630439985/important/screencapture-savokos-2021-08-31-21_58_46_1_ucgnjt.png)
 <br>
+
+![LiveWebsite](https://res.cloudinary.com/dicynt7ms/image/upload/w_20,h_20/v1630442590/important/NicePng_website-png_187940_pizwnr.png) <span>Live website - <a href="https://savokos.com" target="_blank" rel="noopener noreferrer"> savokos.com</a></span>
 
 ## Table of Contents
 
