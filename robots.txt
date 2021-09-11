@@ -1,5 +1,0 @@
-User-agent: *
-
-Disallow: 
-
-Sitemap: https://savokos.com/sitemap.xml
