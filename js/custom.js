@@ -19,7 +19,7 @@ const revealEffect = function () {
     threshold: 0,
   });
 
-  sections.forEach(s => {
+  sections.forEach((s) => {
     revealObserver.observe(s);
     s.classList.add('reveal');
   });
@@ -33,12 +33,12 @@ const blurOnCardHover = function () {
   services.addEventListener('mouseover', function (e) {
     const card = e.target.closest('.service-card');
     if (card) {
-      serviceCard.forEach(sc => {
+      serviceCard.forEach((sc) => {
         sc.style.filter = 'blur(5px)';
       });
       card.style.filter = 'blur(0px)';
     } else {
-      serviceCard.forEach(sc => {
+      serviceCard.forEach((sc) => {
         sc.style.filter = 'blur(0px)';
         sc.style.transform = 'scale(1)';
       });
